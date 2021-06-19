@@ -1,0 +1,10 @@
+/* Using Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    text-align: center;
+}
+
+.header  {
+    background-image: url(/IP3-master/assets/backgrounds/h_img.jpg);
+}
