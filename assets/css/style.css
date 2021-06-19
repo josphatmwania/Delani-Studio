@@ -27,6 +27,9 @@ body {
     height: 250px;
 
 }
+.services p {
+    font-size: 21px;
+}
 .What-we-do {
     /* float: inline-end;
     flex-wrap: nowrap; */
@@ -39,7 +42,7 @@ body {
 }
 
 .social {
-    height: 250px;
+    /* height: 250px; */
 
     
 }
