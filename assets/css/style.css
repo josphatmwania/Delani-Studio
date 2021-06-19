@@ -3,8 +3,20 @@
 
 body {
     text-align: center;
+    
 }
 
 .header  {
-    background-image: url(/IP3-master/assets/backgrounds/h_img.jpg);
+    background-image: url(/assets/backgrounds/h_img.jpg); 
+    background-size: cover;
+    height: 400px;
+    padding-top: 135px;
+    color: white;
+
+
+
+}
+.header h1 {
+    font-size: 45px;
+    font-weight: bolder;
 }
