@@ -20,3 +20,10 @@ body {
     font-size: 45px;
     font-weight: bolder;
 }
+.services {
+    background-image: url('/assets/backgrounds/s_image.jpg');
+    color: white;
+    text-align: center;
+    height: 250px;
+
+}
