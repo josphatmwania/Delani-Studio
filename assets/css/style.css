@@ -16,10 +16,27 @@ body {
 
 
 }
+
+
 .header h1 {
     font-size: 45px;
     font-weight: bolder;
 }
+#mouse-click {
+    position: fixed;
+
+}
+#logo {
+    position: absolute;
+    top: 4%;
+    height: auto;
+
+
+
+
+}
+
+
 .services {
     background-image: url('/assets/backgrounds/s_image.jpg');
     color: white;
@@ -31,10 +48,9 @@ body {
     font-size: 21px;
 }
 .What-we-do {
-    /* float: inline-end;
-    flex-wrap: nowrap; */
-    height: 350px;
-    padding-inline-start: 40px;
+
+
+
 
 
 }
