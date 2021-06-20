@@ -38,7 +38,7 @@ body {
 
 
 }
-.portfolio {
+.portfolio-grid {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 5px;
@@ -47,6 +47,7 @@ body {
 #portfolio-1 {
     font-size: 30px;
     text-align: center;
+    padding: 5px;
 
 }
 
