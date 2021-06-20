@@ -23,7 +23,7 @@ body {
     font-weight: bolder;
 }
 #mouse-click {
-    position: fixed;
+    position: absolute;
 
 }
 #logo {
@@ -50,9 +50,6 @@ body {
 .What-we-do {
 
 
-
-
-
 }
 .portfolio-grid {
     display: grid;
@@ -76,4 +73,7 @@ body {
     
 
     
+}
+.footer {
+    padding-top: 5px;
 }
