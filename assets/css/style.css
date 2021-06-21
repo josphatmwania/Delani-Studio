@@ -66,12 +66,16 @@ body {
 
 }
 
-.contact-us{
+.kali{
     background-image: url('/assets/backgrounds/c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
 }
 
-.social {
-    /* height: 250px; */
     
 
     
