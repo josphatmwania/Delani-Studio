@@ -55,6 +55,8 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 5px;
+    margin: auto;
+    width: 85%;
 
 }
 #portfolio-1 {
