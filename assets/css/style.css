@@ -7,7 +7,7 @@ body {
 }
 
 .header  {
-    background-image: url(/assets/backgrounds/h_img.jpg); 
+    background-image: url(/backgrounds/h_img.jpg); 
     background-size: cover;
     height: 400px;
     padding-top: 135px;
@@ -16,8 +16,6 @@ body {
 
 
 }
-
-
 .header h1 {
     font-size: 45px;
     font-weight: bolder;
@@ -32,13 +30,14 @@ body {
     height: auto;
 
 
-
-
 }
-
-
+.port {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
 .services {
-    background-image: url('/assets/backgrounds/s_image.jpg');
+    background-image: url('/backgrounds/s_image.jpg');
     color: white;
     text-align: center;
     height: 250px;
@@ -46,9 +45,6 @@ body {
 }
 .services p {
     font-size: 21px;
-}
-
-
 }
 .lio {
     margin-left: 150px;
@@ -60,7 +56,7 @@ body {
 }
 
 .kali{
-    background-image: url('/assets/backgrounds/c_image.jpg');
+    background-image: url('/backgrounds/c_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
