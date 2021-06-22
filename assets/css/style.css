@@ -50,18 +50,12 @@ body {
 
 
 }
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 5px;
-    margin: auto;
-    width: 85%;
-
+.lio {
+    margin-left: 150px;
+    align-items: center;
 }
-#portfolio-1 {
-    font-size: 30px;
-    text-align: center;
-    padding: 5px;
+.col-md-2 {
+    margin-right: 60px;
 
 }
 

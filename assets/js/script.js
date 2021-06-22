@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     $(".show").click(function() {
         $(".show").toggle(2000);
@@ -26,6 +25,42 @@ $(document).ready(function() {
         $(".show2").toggle(2000);
     });
 });
+
+
+
+
+$(document).ready(function() {
+    $(".pic").hover(function() {
+        $("#pic").toggle(400, "linear");
+    });
+    $(".pic1").hover(function() {
+        $("#pic1").toggle(500);
+    });
+
+    $(".pic2").hover(function() {
+        $("#pic2").toggle(500);
+    });
+
+    $(".pic3").hover(function() {
+        $("#pic3").toggle(400);
+    });
+
+    $(".pic4").hover(function() {
+        $("#pic4").toggle(400, "linear");
+    });
+
+    $(".pic5").hover(function() {
+        $("#pic5").toggle(400);
+    });
+
+    $(".pic6").hover(function() {
+        $("#pic6").toggle(400);
+    });
+    $(".pic7").hover(function() {
+        $("#pic7").toggle(400);
+    });
+});
+
 
 // When submitting the form
 
