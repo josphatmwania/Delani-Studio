@@ -11,6 +11,8 @@
     text-align: center;
 }
 
+/* styling the service section */
+
 .service {
     background-image: url("../assets/backgrounds/service.jpg");
     background-repeat: no-repeat;
@@ -156,7 +158,7 @@
     color: #fff;
 }
 
-#mce-EMAIL {
+#mwania-EMAIL{
     background: none;
     color: #fff;
 }

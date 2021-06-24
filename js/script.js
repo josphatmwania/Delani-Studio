@@ -62,11 +62,11 @@ $(document).ready(function() {
 });
 
 
-
+// Used formspree on contact us for email purposes
 
 function myFunction() {
     var name = document.getElementById("name").value;
-    var email = document.getElementById("mce-EMAIL").value;
+    var email = document.getElementById("mwania-EMAIL").value;
 
     if ((name) && (email)) {
 
