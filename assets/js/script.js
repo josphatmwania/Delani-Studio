@@ -62,7 +62,7 @@ $(document).ready(function() {
 });
 
 
-// When submitting the form
+
 
 function myFunction() {
     var name = document.getElementById("name").value;

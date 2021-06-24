@@ -1,70 +1,294 @@
 /* Using Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.google.com/specimen/Italianno?selection.family=Open+Sans");
 
-body {
-    text-align: center;
-    
-}
-
-.header  {
-    background-image: url(https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg);
+/* styling the header section */
+.head {
+    background-image: url("../backgrounds/header.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    padding-top: 135px;
-    color: white;
-
-
-
+    color: #fff;
+    background-position: center;
+    text-align: center;
 }
-.header h1 {
-    font-size: 45px;
-    font-weight: bolder;
-}
-#mouse-click {
-    position: absolute;
 
+.service {
+    background-image: url("../backgrounds/service.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    height: 40vh;
+    font-size: small;
+    padding-top: 90px;
+    line-height: 20px;
 }
-#logo {
-    position: absolute;
-    top: 4%;
-    height: auto;
 
-
+.service h1 {
+    font-size: 20px;
 }
+
 .port {
     width: 100%;
     text-align: center;
     padding: 20px;
 }
-.services {
-    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
-    color: white;
-    text-align: center;
-    height: 250px;
 
+.port h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 60px;
 }
-.services p {
-    font-size: 21px;
+
+.port img {
+    width: 200px;
 }
+
+#logo {
+    padding-top: 190px;
+    width: 70px;
+}
+
+.head h1 {
+    padding: 3px;
+    margin: 6px;
+    font-size: 35px;
+}
+
+.head h2 {
+    padding-top: 20px;
+}
+
+.head p {
+    padding: 2px;
+    font-size: small;
+}
+
+#mouse {
+    padding-top: 110px;
+}
+
+.welcome {
+    padding-top: 20px;
+}
+
+.mouse {
+    width: 15px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+#about p {
+    font-size: small;
+}
+
+#about h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.what {
+    text-align: center;
+    font-size: 16px;
+    padding: 40px;
+}
+
+.what h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.what img {
+    width: 50px;
+    padding-top: 20px;
+}
+
+.col-md-2 {
+    margin-right: 60px;
+}
+
 .lio {
     margin-left: 150px;
     align-items: center;
 }
-.col-md-2 {
-    margin-right: 60px;
 
-}
-
-.kali{
-    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
+.con {
+    background-image: url("../backgrounds/contacts_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
-    padding: 20px;
+    padding: 30px;
     color: #fff;
     text-align: center;
 }
-    
-.footer {
-    padding-top: 5px;
+
+.social-img {
+    text-align: center;
+    margin-right: 20px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.delani {
+    text-align: center;
+}
+
+.delani h1 {
+    font-size: 20px;
+}
+
+.con h1 {
+    font-size: 20px;
+}
+
+#meso {
+    background: none;
+    height: 20vh;
+    color: #fff;
+}
+
+#name {
+    background: none;
+    color: #fff;
+}
+
+#mce-EMAIL {
+    background: none;
+    color: #fff;
+}
+
+#sub {
+    width: 100px;
+}
+
+#name ::placeholder {
+    color: #fff;
+}
+
+.kali {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.col3 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.col3 ::placeholder {
+    color: #fff;
+    padding: 0px;
+}
+
+.col ::placeholder {
+    color: #fff;
+}
+
+.hide {
+    display: none;
+    cursor: progress;
+}
+
+.hide1,
+.hide2 {
+    display: none;
+    cursor: progress;
+}
+
+#pic,
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6,
+#pic7 {
+    display: none;
+    position: absolute;
+    width: 120%;
+    min-height: 60%;
+    background: rgba(0, 0, 0, 0.582);
+    transition: all 0.5s ease;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 21px;
+    margin-top: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: progress;
+}
+
+
+/* .stage {
+                            border-bottom: 3px solid #444;
+                            display: flex;
+                            height: 330px;
+                            width: 100%;
+                        }
+                         */
+
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 15px;
+}
+
+.bounce-7 {
+    animation-name: bounce-7;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+@keyframes bounce-7 {
+    0% {
+        transform: scale(1, 1);
+    }
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+    30% {
+        transform: scale() translateY(-100px);
+    }
+    50% {
+        transform: scale() translateY(0);
+    }
+    57% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+    64% {
+        transform: scale(1, 0) translateY(0);
+    }
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
 }
