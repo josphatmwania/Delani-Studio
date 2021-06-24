@@ -3,7 +3,7 @@
 
 /* styling the header section */
 .head {
-    background-image: url("../backgrounds/header.jpg");
+    background-image: url("../assets/backgrounds/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -12,7 +12,7 @@
 }
 
 .service {
-    background-image: url("../backgrounds/service.jpg");
+    background-image: url("../assets/backgrounds/service.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -117,7 +117,7 @@
 }
 
 .con {
-    background-image: url("../backgrounds/contacts_image.jpg");
+    background-image: url("../assets/backgrounds/contacts_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
