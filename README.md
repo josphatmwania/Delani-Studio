@@ -16,7 +16,7 @@ on github click the link and you ready to go.
 
 # Git Hub Live Link
  
-# [here] [https://josphatmwania.github.io/Delani-Studio/]
+# [here](j23747.github.io/delani-studio/)
 
 # Copyright and License
 
